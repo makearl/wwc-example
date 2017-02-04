@@ -29,7 +29,7 @@ setup(
     py_modules=["example"],
     setup_requires=['pytest-runner'],
     install_requires=[],
-    tests_require=["pytest", "mock", "coverage", "python-coveralls", "pytest-cov"],
+    tests_require=["pytest", "mock", "python-coveralls", "pytest-cov"],
     description="Example App",
     long_description=open("README.md").read(),
     license="MIT",
