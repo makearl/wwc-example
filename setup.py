@@ -21,8 +21,8 @@ from setuptools import setup
 
 
 setup(
-    name="tornado-profile",
-    version="1.2.0",
+    name="wwc-example",
+    version="0.0.1",
     author="Megan Kearl Patten",
     author_email="megkearl@gmail.com",
     url="https://github.com/makearl/wwc-example",
@@ -31,7 +31,7 @@ setup(
     install_requires=[],
     tests_require=["pytest", "mock", "coverage"],
     description="Example App",
-    long_description=open("README.rst").read(),
+    long_description=open("README.md").read(),
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 2",
